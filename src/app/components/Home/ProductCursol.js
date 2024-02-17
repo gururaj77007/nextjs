@@ -38,7 +38,7 @@ function ProductCursol() {
 
   return (
     <div className="max-[600px]:hidden">
-      <h2 className="text-white font-bold md:text-xl p-4">"wkjew"</h2>
+      <h2 className="text-white font-bold md:text-xl p-4">wkjew</h2>
       <div className="relative flex items-center justify-center   group">
         <div
           onClick={slideLeft}

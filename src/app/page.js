@@ -1,17 +1,11 @@
-import Image from "next/image";
-import Link from "next/link";
 import Taskbar from "./components/Taskbar";
 // import { useAuth } from "./store/AuthContext";
-import remoteConfigVar from "./firebase/firebase";
-import { fetchAndActivate } from "firebase/remote-config";
-import { signIn } from "next-auth/react";
+
 import AdCursol from "./components/Home/AdCursol";
 
 import ProductCursol from "./components/Home/ProductCursol";
 
 // Import Swiper styles
-
-import { Metadata } from "next";
 
 export default function Home() {
   const username = "ramgurush@gmail.com";
